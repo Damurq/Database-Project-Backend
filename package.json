@@ -1,0 +1,41 @@
+{
+  "name": "backend-project",
+  "version": "1.0.0",
+  "description": "Database Project: Backend. Build with Node.js, Express.js, PostgreSQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joseriveroc/Database-Project-Backend.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "PostgreSQL",
+    "Database",
+    "Project",
+    "Sequelize"
+  ],
+  "author": "José Rivero, Gustavo Rivero, María Paredes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joseriveroc/Database-Project-Backend/issues"
+  },
+  "homepage": "https://github.com/joseriveroc/Database-Project-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
